@@ -1,0 +1,38 @@
+.whatsapp {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  text-align: right;
+}
+.whatsapp i {
+  cursor: pointer;
+}
+.whatsapp i.icona-whatsapp {
+  display: block;
+}
+.whatsapp i.icona-whatsapp img {
+  width: 60px;
+}
+.whatsapp .pulsanti-whatsapp {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  background: #f3f3f3;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.whatsapp .pulsanti-whatsapp .pulsante-whatsapp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #4CAF50;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-family: system-ui;
+}
+.whatsapp .pulsanti-whatsapp .pulsante-whatsapp img.icona-whatsapp {
+  width: 40px;
+}/*# sourceMappingURL=style.css.map */
